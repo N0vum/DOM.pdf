@@ -1,0 +1,33 @@
+*{
+    background-color: skyblue;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 15px;
+}
+.wrapper {
+    margin-top: 3em;
+    display: grid;
+    grid-template-areas: "btn1 btn2 btn3 btn4";
+    grid-template-columns: repeat(4, 1fr);
+ grid-gap: 3px;
+}
+
+.btnClass {
+   width: auto;
+   height: auto;
+padding: 0.3em 0.8em;
+   margin: auto;
+   border: 2px solid rgb(172, 168, 168);
+   border-radius: 45px;
+   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+   background-color: skyblue;
+
+}
+#btn{grid-area: "btn1"}
+#btn2{grid-area: "btn2"}
+#btn3{grid-area: "btn3"}
+#btn4{grid-area: "btn4"}
+
+img {
+    width: 13em;
+    height: 4em;
+}
